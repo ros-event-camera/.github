@@ -7,7 +7,7 @@ This collection of repositories provides ROS support for event based cameras.
 - [metavision_driver](https://www.github.com/ros-event-camera/metavision_driver/):
   a ROS driver for event cameras based on the MetaVision SDK (Prophesee).
   Build status: Humble(
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__metavision_driver__ubuntu_jammy_amd64)](https://build.ros2.org/job/Hdev__metavision_driver__ubuntu_jammy_amd64/icon?style=ball-16x16))
+  [![Build Status](https://build.ros2.org/buildStatus/icon?style=ball-16x16)](https://build.ros2.org/job/Hdev__metavision_driver__ubuntu_jammy_amd64))
 
 - [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/):
   message definitions for sending event camera data within the ROS
