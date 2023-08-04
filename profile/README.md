@@ -2,13 +2,20 @@
 
 This collection of repositories provides ROS support for event based cameras.
 
+## Repositories/Packages
+
 - [metavision_driver](https://www.github.com/ros-event-camera/metavision_driver/):
-  a ROS driver for event cameras based on the MetaVision SDK
-  (Prophesee)
+  a ROS driver for event cameras based on the MetaVision SDK (Prophesee).
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__metavision_driver__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__metavision_driver__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__metavision_driver__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__metavision_driver__ubuntu_jammy_amd64/)
 
 - [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/):
   message definitions for sending event camera data within the ROS
   framework.
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_camera_msgs__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_camera_msgs__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_msgs__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_msgs__ubuntu_jammy_amd64/)
 
 - [event_camera_codecs](https://www.github.com/ros-event-camera/event_camera_codecs/):
   a C++ library to decode the events contained in
@@ -33,4 +40,10 @@ This collection of repositories provides ROS support for event based cameras.
    - echo decoded event messages
    - display event rate and measure messaging performance
    - check synchronization between cameras
+
+## How to manage and release repositories
+
+[Here are more instructions](docs/manage_repositories.md) on how to manage and release the ros-event-camera repositories.
+
+
 
