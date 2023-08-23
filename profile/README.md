@@ -29,7 +29,7 @@ This collection of repositories provides ROS support for event based cameras.
   as a python module.  The camera events are presented as structured
   numpy arrays in the same format that the MetaVision SDK uses.
 
-- [event_camera_viewer](https://www.github.com/ros-event-camera/event_camera_viewer/):
+- [event_camera_renderer](https://www.github.com/ros-event-camera/event_camera_renderer/):
   renders time slices of camera events and publishes them as images
   for viewing with tools such as rqt_gui.
 
