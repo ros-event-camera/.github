@@ -20,6 +20,9 @@ This collection of repositories provides ROS support for event based cameras.
 - [event_camera_codecs](https://www.github.com/ros-event-camera/event_camera_codecs/):
   a C++ library to decode the events contained in
   [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/).
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_camera_codecs__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_camera_codecs__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_codecs__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_codecs__ubuntu_jammy_amd64/)
 
 - [event_camera_py](https://www.github.com/ros-event-camera/event_camera_py/):
   fast reading and decoding of
@@ -28,10 +31,16 @@ This collection of repositories provides ROS support for event based cameras.
   [event_camera_codecs](https://www.github.com/ros-event-camera/event_camera_codecs/)
   as a python module.  The camera events are presented as structured
   numpy arrays in the same format that the MetaVision SDK uses.
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_camera_py__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_camera_py__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_py__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_py__ubuntu_jammy_amd64/)
 
 - [event_camera_renderer](https://www.github.com/ros-event-camera/event_camera_renderer/):
   renders time slices of camera events and publishes them as images
   for viewing with tools such as rqt_gui.
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_camera_renderer__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_camera_renderer__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_renderer__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_renderer__ubuntu_jammy_amd64/)
 
 - [event_camera_tools](https://www.github.com/ros-event-camera/event_camera_tools/):
   various tools to:
