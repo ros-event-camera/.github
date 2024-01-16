@@ -11,6 +11,13 @@ This collection of repositories provides ROS support for event based cameras.
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Idev__metavision_driver__ubuntu_jammy_amd64&subject=Iron)](https://build.ros2.org/job/Idev__metavision_driver__ubuntu_jammy_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__metavision_driver__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__metavision_driver__ubuntu_jammy_amd64/)
 
+- [libcaer_driver](https://www.github.com/ros-event-camera/libcaer_driver/):
+  a ROS driver for event cameras based on the MetaVision SDK (Prophesee).
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__libcaer_driver__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__libcaer_driver__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Idev__libcaer_driver__ubuntu_jammy_amd64&subject=Iron)](https://build.ros2.org/job/Idev__libcaer_driver__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__libcaer_driver__ubuntu_jammy_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__libcaer_driver__ubuntu_jammy_amd64/)
+
 - [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/):
   message definitions for sending event camera data within the ROS
   framework.
