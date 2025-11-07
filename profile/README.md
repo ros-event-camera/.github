@@ -4,6 +4,22 @@ This collection of repositories provides ROS support for event based cameras.
 
 ## Repositories/Packages
 
+- [metavision_driver](https://www.github.com/ros-event-camera/metavision_driver/):
+  a ROS driver for event cameras based on the MetaVision SDK (Prophesee).\
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__metavision_driver__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__metavision_driver__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__metavision_driver__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__metavision_driver__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__metavision_driver__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__metavision_driver__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__metavision_driver__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__metavision_driver__ubuntu_noble_amd64/)
+
+- [libcaer_driver](https://www.github.com/ros-event-camera/libcaer_driver/):
+  a ROS2 driver for event cameras based on Inivation Lab's CAER library (Davis, DvXplorer).\
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__libcaer_driver__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__libcaer_driver__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__libcaer_driver__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__libcaer_driver__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__libcaer_driver__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__libcaer_driver__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__libcaer_driver__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__libcaer_driver__ubuntu_noble_amd64/)
+
 - [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/):
   message definitions for sending event camera data within the ROS framework.\
   Build status:
@@ -43,22 +59,21 @@ This collection of repositories provides ROS support for event based cameras.
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__event_camera_renderer__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__event_camera_renderer__ubuntu_noble_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_renderer__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_renderer__ubuntu_noble_amd64/)
 
-
-- [metavision_driver](https://www.github.com/ros-event-camera/metavision_driver/):
-  a ROS driver for event cameras based on the MetaVision SDK (Prophesee).\
+- [frequency_cam](https://www.github.com/ros-event-camera/frequency_cam/):
+  Visualizes the frequency of time-period light signals such as vibrations.
   Build status:
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__metavision_driver__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__metavision_driver__ubuntu_jammy_amd64/)
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__metavision_driver__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__metavision_driver__ubuntu_noble_amd64/)
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__metavision_driver__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__metavision_driver__ubuntu_noble_amd64/)
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__metavision_driver__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__metavision_driver__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__frequency_cam__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__frequency_cam__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__frequency_cam__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__frequency_cam__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__frequency_cam__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__frequency_cam__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__frequency_cam__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__frequency_cam__ubuntu_noble_amd64/)
 
-- [libcaer_driver](https://www.github.com/ros-event-camera/libcaer_driver/):
-  a ROS2 driver for event cameras based on Inivation Lab's CAER library (Davis, DvXplorer).\
+- [event_image_reconstruction_fibar](https://www.github.com/ros-event-camera/event_image_reconstruction_fibar/):
+  Reconstructs brightness image from events using the FIBAR method.
   Build status:
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__libcaer_driver__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__libcaer_driver__ubuntu_jammy_amd64/)
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__libcaer_driver__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__libcaer_driver__ubuntu_noble_amd64/)
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__libcaer_driver__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__libcaer_driver__ubuntu_noble_amd64/)
-  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__libcaer_driver__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__libcaer_driver__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_image_reconstruction_fibar__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_image_reconstruction_fibar__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__event_image_reconstruction_fibar__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__event_image_reconstruction_fibar__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__event_image_reconstruction_fibar__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__event_image_reconstruction_fibar__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_image_reconstruction_fibar__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_image_reconstruction_fibar__ubuntu_noble_amd64/)
 
 Libraries repackaged for ROS:
 
@@ -78,6 +93,14 @@ Libraries repackaged for ROS:
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__libcaer_vendor__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__libcaer_vendor__ubuntu_noble_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__libcaer_vendor__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__libcaer_vendor__ubuntu_noble_amd64/)
   
+- [fibar_lib](https://www.github.com/ros-event-camera/fibar_lib/):
+  base package for brightness image reconstruction from event using the filter based FIBAR method.\
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__fibar_lib__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__fibar_lib__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__fibar_lib__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__fibar_lib__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__fibar_lib__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__fibar_lib__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__fibar_lib__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__fibar_lib__ubuntu_noble_amd64/)
+
 Packages not released as binaries:
 
 - [event_camera_tools](https://www.github.com/ros-event-camera/event_camera_tools/):
