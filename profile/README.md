@@ -52,7 +52,7 @@ This collection of repositories provides ROS support for event based cameras.
 
 - [event_camera_renderer](https://www.github.com/ros-event-camera/event_camera_renderer/):
   renders time slices of camera events and publishes them as images
-  for viewing with tools such as rqt_gui.\
+  for viewing with tools such as rqt\_gui.\
   Build status:
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_camera_renderer__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_camera_renderer__ubuntu_jammy_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__event_camera_renderer__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__event_camera_renderer__ubuntu_noble_amd64/)
@@ -60,7 +60,7 @@ This collection of repositories provides ROS support for event based cameras.
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_renderer__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_renderer__ubuntu_noble_amd64/)
 
 - [frequency_cam](https://www.github.com/ros-event-camera/frequency_cam/):
-  Visualizes the frequency of time-period light signals such as vibrations.
+  Visualizes the frequency of time-period light signals such as vibrations.\
   Build status:
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__frequency_cam__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__frequency_cam__ubuntu_jammy_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__frequency_cam__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__frequency_cam__ubuntu_noble_amd64/)
@@ -68,7 +68,7 @@ This collection of repositories provides ROS support for event based cameras.
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__frequency_cam__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__frequency_cam__ubuntu_noble_amd64/)
 
 - [event_image_reconstruction_fibar](https://www.github.com/ros-event-camera/event_image_reconstruction_fibar/):
-  Reconstructs brightness image from events using the FIBAR method.
+  Reconstructs brightness image from events using the FIBAR method.\
   Build status:
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_image_reconstruction_fibar__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_image_reconstruction_fibar__ubuntu_jammy_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__event_image_reconstruction_fibar__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__event_image_reconstruction_fibar__ubuntu_noble_amd64/)
