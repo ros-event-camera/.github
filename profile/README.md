@@ -75,6 +75,13 @@ This collection of repositories provides ROS support for event based cameras.
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__event_image_reconstruction_fibar__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__event_image_reconstruction_fibar__ubuntu_noble_amd64/)
   [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_image_reconstruction_fibar__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_image_reconstruction_fibar__ubuntu_noble_amd64/)
 
+- [event_camera_tools](https://www.github.com/ros-event-camera/event_camera_tools/):
+  various tools for working with
+  [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/),
+  for example to convert Metavision raw files to ros2 bags and vice
+  versa, echo messages, display event rates, make movies, gather event
+  statistics, check synchronization between cameras etc.
+
 Libraries repackaged for ROS:
 
 - [openeb_vendor](https://www.github.com/ros-event-camera/openeb_vendor/):
@@ -103,13 +110,9 @@ Libraries repackaged for ROS:
 
 Packages not released as binaries:
 
-- [event_camera_tools](https://www.github.com/ros-event-camera/event_camera_tools/):
-  various tools to:
-   - convert rosbags with legacy DVS and Prophesee messages or  MetaVision RAW files to rosbags using
-    [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/).
-   - echo decoded event messages
-   - display event rate and measure messaging performance
-   - check synchronization between cameras
+- [event_camera_legacy_tools](https://www.github.com/ros-event-camera/event_camera_legacy_tools/):
+  tools and nodes to convert rosbags with legacy DVS and Prophesee
+  messages to rosbags or to republish legacy messages.
 
 ## How to manage and release repositories
 
