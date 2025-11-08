@@ -80,7 +80,12 @@ This collection of repositories provides ROS support for event based cameras.
   [event_camera_msgs](https://www.github.com/ros-event-camera/event_camera_msgs/),
   for example to convert Metavision raw files to ros2 bags and vice
   versa, echo messages, display event rates, make movies, gather event
-  statistics, check synchronization between cameras etc.
+  statistics, check synchronization between cameras etc.\
+  Build status:
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Hdev__event_camera_tools__ubuntu_jammy_amd64&subject=Humble)](https://build.ros2.org/job/Hdev__event_camera_tools__ubuntu_jammy_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Jdev__event_camera_tools__ubuntu_noble_amd64&subject=Jazzy)](https://build.ros2.org/job/Jdev__event_camera_tools__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Kdev__event_camera_tools__ubuntu_noble_amd64&subject=Kilted)](https://build.ros2.org/job/Kdev__event_camera_tools__ubuntu_noble_amd64/)
+  [![Build Status](https://build.ros2.org/buildStatus/icon?job=Rdev__event_camera_tools__ubuntu_noble_amd64&subject=Rolling)](https://build.ros2.org/job/Rdev__event_camera_tools__ubuntu_noble_amd64/)
 
 Libraries repackaged for ROS:
 
